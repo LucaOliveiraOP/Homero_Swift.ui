@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413DCCF2A37927800ED84F7 /* ProfileVie.swift */; };
+		643AC7132A3D101F001786A4 /* BarraViewEspecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */; };
+		643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AC7142A3D1E81001786A4 /* Textcurse.swift */; };
+		64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */; };
+		644535952A314DBB003675DD /* CursoVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535942A314DBB003675DD /* CursoVie.swift */; };
+		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
+		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
+		644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */; };
+		646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */; };
+		6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */; };
+		6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81E2A26A87B00A952BC /* ContentView.swift */; };
+		6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474F8202A26A87D00A952BC /* Assets.xcassets */; };
+		6474F8242A26A87D00A952BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474F8232A26A87D00A952BC /* Preview Assets.xcassets */; };
+		6474F82E2A26A87E00A952BC /* Homero_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F82D2A26A87E00A952BC /* Homero_iOS_Tests.swift */; };
+		6474F8382A26A87E00A952BC /* Homero_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8372A26A87E00A952BC /* Homero_iOS_UITests.swift */; };
+		6474F83A2A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */; };
+		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
+		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
+		6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Stylefield.swift */; };
+		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
+		64AF80962A391B65005FBB45 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80952A391B65005FBB45 /* ImageView.swift */; };
+		64AF80982A391E25005FBB45 /* BarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80972A391E25005FBB45 /* BarraView.swift */; };
+		64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80992A392355005FBB45 /* InformacoesView.swift */; };
+		64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */; };
+		64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EA2A29538B0034E479 /* PerfilVie.swift */; };
+		64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */; };
+		64C80DFF2A426DA300BBA4B5 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80DFE2A426DA300BBA4B5 /* Graph.swift */; };
+		64C80E012A426E1500BBA4B5 /* grafo.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C80E002A426E1500BBA4B5 /* grafo.json */; };
+		64C80E032A426E6800BBA4B5 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E022A426E6800BBA4B5 /* FileManager.swift */; };
+		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
+		64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6474F82A2A26A87E00A952BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6474F8112A26A87B00A952BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6474F8182A26A87B00A952BC;
+			remoteInfo = "Homero(iOS)";
+		};
+		6474F8342A26A87E00A952BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6474F8112A26A87B00A952BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6474F8182A26A87B00A952BC;
+			remoteInfo = "Homero(iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6413DCCF2A37927800ED84F7 /* ProfileVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVie.swift; sourceTree = "<group>"; };
+		643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraViewEspecial.swift; sourceTree = "<group>"; };
+		643AC7142A3D1E81001786A4 /* Textcurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textcurse.swift; sourceTree = "<group>"; };
+		64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerguntasFrequentes.swift; sourceTree = "<group>"; };
+		644535912A314418003675DD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
+		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
+		644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewMode.swift; sourceTree = "<group>"; };
+		646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoPrincipalView.swift; sourceTree = "<group>"; };
+		6474F8192A26A87B00A952BC /* Homero(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homero(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_App.swift; sourceTree = "<group>"; };
+		6474F81E2A26A87B00A952BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6474F8202A26A87D00A952BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6474F8232A26A87D00A952BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6474F8292A26A87E00A952BC /* Homero(iOS)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homero(iOS)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6474F82D2A26A87E00A952BC /* Homero_iOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_Tests.swift; sourceTree = "<group>"; };
+		6474F8332A26A87E00A952BC /* Homero(iOS)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homero(iOS)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6474F8372A26A87E00A952BC /* Homero_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_UITests.swift; sourceTree = "<group>"; };
+		6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
+		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6474F84E2A26CD5700A952BC /* Stylefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylefield.swift; sourceTree = "<group>"; };
+		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
+		64AF80952A391B65005FBB45 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		64AF80972A391E25005FBB45 /* BarraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraView.swift; sourceTree = "<group>"; };
+		64AF80992A392355005FBB45 /* InformacoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacoesView.swift; sourceTree = "<group>"; };
+		64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoAulaView.swift; sourceTree = "<group>"; };
+		64B876EA2A29538B0034E479 /* PerfilVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVie.swift; sourceTree = "<group>"; };
+		64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCurso.swift; sourceTree = "<group>"; };
+		64C80DFE2A426DA300BBA4B5 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		64C80E002A426E1500BBA4B5 /* grafo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grafo.json; sourceTree = "<group>"; };
+		64C80E022A426E6800BBA4B5 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
+		64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSecureVie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6474F8162A26A87B00A952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F8262A26A87E00A952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F8302A26A87E00A952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6465104F2A410E1A007A9661 /* Curso */ = {
+			isa = PBXGroup;
+			children = (
+				6465106A2A411366007A9661 /* UIComponent */,
+				646510662A411302007A9661 /* FeatureMenuCurso */,
+				646510652A4112F9007A9661 /* FeatureIniciaCurso */,
+			);
+			path = Curso;
+			sourceTree = "<group>";
+		};
+		646510502A410F06007A9661 /* FeatureLogin */ = {
+			isa = PBXGroup;
+			children = (
+				646510572A41101F007A9661 /* ViewModel */,
+				646510562A411018007A9661 /* View */,
+			);
+			path = FeatureLogin;
+			sourceTree = "<group>";
+		};
+		646510512A410F19007A9661 /* FeatureCadastro */ = {
+			isa = PBXGroup;
+			children = (
+				646510532A410FCB007A9661 /* View */,
+			);
+			path = FeatureCadastro;
+			sourceTree = "<group>";
+		};
+		646510522A410F39007A9661 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6474F84E2A26CD5700A952BC /* Stylefield.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		646510532A410FCB007A9661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6474F81E2A26A87B00A952BC /* ContentView.swift */,
+				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646510562A411018007A9661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646510572A41101F007A9661 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6474F8492A26AC1A00A952BC /* LoginViewMode.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6465105B2A411128007A9661 /* FeatureMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6465105D2A411194007A9661 /* ViewMenu */,
+			);
+			path = FeatureMenu;
+			sourceTree = "<group>";
+		};
+		6465105C2A411139007A9661 /* FeatureConta */ = {
+			isa = PBXGroup;
+			children = (
+				644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */,
+				646510612A411265007A9661 /* ViewConta */,
+			);
+			path = FeatureConta;
+			sourceTree = "<group>";
+		};
+		6465105D2A411194007A9661 /* ViewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				644535912A314418003675DD /* MenuView.swift */,
+				64B876EA2A29538B0034E479 /* PerfilVie.swift */,
+			);
+			path = ViewMenu;
+			sourceTree = "<group>";
+		};
+		646510612A411265007A9661 /* ViewConta */ = {
+			isa = PBXGroup;
+			children = (
+				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
+				6413DCCF2A37927800ED84F7 /* ProfileVie.swift */,
+				64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */,
+				64AF80992A392355005FBB45 /* InformacoesView.swift */,
+				64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */,
+			);
+			path = ViewConta;
+			sourceTree = "<group>";
+		};
+		646510652A4112F9007A9661 /* FeatureIniciaCurso */ = {
+			isa = PBXGroup;
+			children = (
+				6465106F2A4113FC007A9661 /* View */,
+			);
+			path = FeatureIniciaCurso;
+			sourceTree = "<group>";
+		};
+		646510662A411302007A9661 /* FeatureMenuCurso */ = {
+			isa = PBXGroup;
+			children = (
+				6465106C2A4113EA007A9661 /* View */,
+			);
+			path = FeatureMenuCurso;
+			sourceTree = "<group>";
+		};
+		6465106A2A411366007A9661 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				643AC7142A3D1E81001786A4 /* Textcurse.swift */,
+				643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		6465106C2A4113EA007A9661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6465106F2A4113FC007A9661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646510712A41142B007A9661 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		646849102A42557E004D59D0 /* UICompenents */ = {
+			isa = PBXGroup;
+			children = (
+				644535942A314DBB003675DD /* CursoVie.swift */,
+				64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */,
+				64AF80952A391B65005FBB45 /* ImageView.swift */,
+				644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */,
+				64AF80972A391E25005FBB45 /* BarraView.swift */,
+			);
+			path = UICompenents;
+			sourceTree = "<group>";
+		};
+		6474F8102A26A87B00A952BC = {
+			isa = PBXGroup;
+			children = (
+				6474F81B2A26A87B00A952BC /* Homero(iOS) */,
+				6474F82C2A26A87E00A952BC /* Homero(iOS)Tests */,
+				6474F8362A26A87E00A952BC /* Homero(iOS)UITests */,
+				6474F81A2A26A87B00A952BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6474F81A2A26A87B00A952BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6474F8192A26A87B00A952BC /* Homero(iOS).app */,
+				6474F8292A26A87E00A952BC /* Homero(iOS)Tests.xctest */,
+				6474F8332A26A87E00A952BC /* Homero(iOS)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6474F81B2A26A87B00A952BC /* Homero(iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				646510712A41142B007A9661 /* App */,
+				64AF80A12A393ACD005FBB45 /* Features */,
+				6474F8202A26A87D00A952BC /* Assets.xcassets */,
+				6474F8222A26A87D00A952BC /* Preview Content */,
+			);
+			path = "Homero(iOS)";
+			sourceTree = "<group>";
+		};
+		6474F8222A26A87D00A952BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C80E042A426E8000BBA4B5 /* Grafo */,
+				6474F8232A26A87D00A952BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6474F82C2A26A87E00A952BC /* Homero(iOS)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6474F82D2A26A87E00A952BC /* Homero_iOS_Tests.swift */,
+			);
+			path = "Homero(iOS)Tests";
+			sourceTree = "<group>";
+		};
+		6474F8362A26A87E00A952BC /* Homero(iOS)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6474F8372A26A87E00A952BC /* Homero_iOS_UITests.swift */,
+				6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */,
+			);
+			path = "Homero(iOS)UITests";
+			sourceTree = "<group>";
+		};
+		64AF80A12A393ACD005FBB45 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				64AF80A22A393AE9005FBB45 /* Registro */,
+				64AF80A32A393B19005FBB45 /* Menu */,
+				6465104F2A410E1A007A9661 /* Curso */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		64AF80A22A393AE9005FBB45 /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				646510522A410F39007A9661 /* UIComponents */,
+				646510512A410F19007A9661 /* FeatureCadastro */,
+				646510502A410F06007A9661 /* FeatureLogin */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		64AF80A32A393B19005FBB45 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				646849102A42557E004D59D0 /* UICompenents */,
+				6465105C2A411139007A9661 /* FeatureConta */,
+				6465105B2A411128007A9661 /* FeatureMenu */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		64C80E042A426E8000BBA4B5 /* Grafo */ = {
+			isa = PBXGroup;
+			children = (
+				64C80DFE2A426DA300BBA4B5 /* Graph.swift */,
+				64C80E022A426E6800BBA4B5 /* FileManager.swift */,
+				64C80E002A426E1500BBA4B5 /* grafo.json */,
+			);
+			path = Grafo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6474F8182A26A87B00A952BC /* Homero(iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6474F83D2A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)" */;
+			buildPhases = (
+				6474F8152A26A87B00A952BC /* Sources */,
+				6474F8162A26A87B00A952BC /* Frameworks */,
+				6474F8172A26A87B00A952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homero(iOS)";
+			productName = "Homero(iOS)";
+			productReference = 6474F8192A26A87B00A952BC /* Homero(iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		6474F8282A26A87E00A952BC /* Homero(iOS)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6474F8402A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)Tests" */;
+			buildPhases = (
+				6474F8252A26A87E00A952BC /* Sources */,
+				6474F8262A26A87E00A952BC /* Frameworks */,
+				6474F8272A26A87E00A952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6474F82B2A26A87E00A952BC /* PBXTargetDependency */,
+			);
+			name = "Homero(iOS)Tests";
+			productName = "Homero(iOS)Tests";
+			productReference = 6474F8292A26A87E00A952BC /* Homero(iOS)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6474F8322A26A87E00A952BC /* Homero(iOS)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6474F8432A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)UITests" */;
+			buildPhases = (
+				6474F82F2A26A87E00A952BC /* Sources */,
+				6474F8302A26A87E00A952BC /* Frameworks */,
+				6474F8312A26A87E00A952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6474F8352A26A87E00A952BC /* PBXTargetDependency */,
+			);
+			name = "Homero(iOS)UITests";
+			productName = "Homero(iOS)UITests";
+			productReference = 6474F8332A26A87E00A952BC /* Homero(iOS)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6474F8112A26A87B00A952BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6474F8182A26A87B00A952BC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6474F8282A26A87E00A952BC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6474F8182A26A87B00A952BC;
+					};
+					6474F8322A26A87E00A952BC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6474F8182A26A87B00A952BC;
+					};
+				};
+			};
+			buildConfigurationList = 6474F8142A26A87B00A952BC /* Build configuration list for PBXProject "Homero(iOS)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6474F8102A26A87B00A952BC;
+			productRefGroup = 6474F81A2A26A87B00A952BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6474F8182A26A87B00A952BC /* Homero(iOS) */,
+				6474F8282A26A87E00A952BC /* Homero(iOS)Tests */,
+				6474F8322A26A87E00A952BC /* Homero(iOS)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6474F8172A26A87B00A952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6474F8242A26A87D00A952BC /* Preview Assets.xcassets in Resources */,
+				6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */,
+				64C80E012A426E1500BBA4B5 /* grafo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F8272A26A87E00A952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F8312A26A87E00A952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6474F8152A26A87B00A952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C80DFF2A426DA300BBA4B5 /* Graph.swift in Sources */,
+				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
+				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
+				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
+				64AF80962A391B65005FBB45 /* ImageView.swift in Sources */,
+				64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */,
+				64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */,
+				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
+				6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */,
+				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
+				64C80E032A426E6800BBA4B5 /* FileManager.swift in Sources */,
+				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
+				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
+				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
+				644535952A314DBB003675DD /* CursoVie.swift in Sources */,
+				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
+				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
+				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
+				64AF80982A391E25005FBB45 /* BarraView.swift in Sources */,
+				643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */,
+				643AC7132A3D101F001786A4 /* BarraViewEspecial.swift in Sources */,
+				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
+				644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */,
+				646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */,
+				644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F8252A26A87E00A952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6474F82E2A26A87E00A952BC /* Homero_iOS_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6474F82F2A26A87E00A952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6474F83A2A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift in Sources */,
+				6474F8382A26A87E00A952BC /* Homero_iOS_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6474F82B2A26A87E00A952BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6474F8182A26A87B00A952BC /* Homero(iOS) */;
+			targetProxy = 6474F82A2A26A87E00A952BC /* PBXContainerItemProxy */;
+		};
+		6474F8352A26A87E00A952BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6474F8182A26A87B00A952BC /* Homero(iOS) */;
+			targetProxy = 6474F8342A26A87E00A952BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6474F83B2A26A87E00A952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6474F83C2A26A87E00A952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6474F83E2A26A87E00A952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homero(iOS)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6474F83F2A26A87E00A952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homero(iOS)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6474F8412A26A87E00A952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homero(iOS).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homero(iOS)";
+			};
+			name = Debug;
+		};
+		6474F8422A26A87E00A952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homero(iOS).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homero(iOS)";
+			};
+			name = Release;
+		};
+		6474F8442A26A87E00A952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homero(iOS)";
+			};
+			name = Debug;
+		};
+		6474F8452A26A87E00A952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Luka.Homero-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homero(iOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6474F8142A26A87B00A952BC /* Build configuration list for PBXProject "Homero(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6474F83B2A26A87E00A952BC /* Debug */,
+				6474F83C2A26A87E00A952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6474F83D2A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6474F83E2A26A87E00A952BC /* Debug */,
+				6474F83F2A26A87E00A952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6474F8402A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6474F8412A26A87E00A952BC /* Debug */,
+				6474F8422A26A87E00A952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6474F8432A26A87E00A952BC /* Build configuration list for PBXNativeTarget "Homero(iOS)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6474F8442A26A87E00A952BC /* Debug */,
+				6474F8452A26A87E00A952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6474F8112A26A87B00A952BC /* Project object */;
+}
