@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		640F5F452A44E968007B7259 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F5F442A44E968007B7259 /* Edge.swift */; };
-		640F5F472A44EC11007B7259 /* Graph .swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F5F462A44EC11007B7259 /* Graph .swift */; };
-		640F5F492A44EC4A007B7259 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F5F482A44EC4A007B7259 /* Vertex.swift */; };
 		6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413DCCF2A37927800ED84F7 /* ProfileVie.swift */; };
 		643240422A436AFF00D8C899 /* DesempenhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643240412A436AFF00D8C899 /* DesempenhoView.swift */; };
 		643240442A436BAA00D8C899 /* DesempenhoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643240432A436BAA00D8C899 /* DesempenhoComponent.swift */; };
@@ -37,7 +34,6 @@
 		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
 		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
 		6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Stylefield.swift */; };
-		648F18782A43CAC000B9EA3B /* pedro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648F18772A43CAC000B9EA3B /* pedro.swift */; };
 		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
 		64AF80962A391B65005FBB45 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80952A391B65005FBB45 /* ImageView.swift */; };
 		64AF80982A391E25005FBB45 /* BarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80972A391E25005FBB45 /* BarraView.swift */; };
@@ -45,9 +41,12 @@
 		64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */; };
 		64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EA2A29538B0034E479 /* PerfilVie.swift */; };
 		64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */; };
-		64C80DFF2A426DA300BBA4B5 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80DFE2A426DA300BBA4B5 /* Classes.swift */; };
-		64C80E012A426E1500BBA4B5 /* grafo.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C80E002A426E1500BBA4B5 /* grafo.json */; };
-		64C80E032A426E6800BBA4B5 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E022A426E6800BBA4B5 /* FileManager.swift */; };
+		64C80E0C2A46551E00BBA4B5 /* grafo.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C80E062A46551E00BBA4B5 /* grafo.json */; };
+		64C80E0D2A46551E00BBA4B5 /* Graph .swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E072A46551E00BBA4B5 /* Graph .swift */; };
+		64C80E0E2A46551E00BBA4B5 /* pedro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E082A46551E00BBA4B5 /* pedro.swift */; };
+		64C80E0F2A46551E00BBA4B5 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E092A46551E00BBA4B5 /* Vertex.swift */; };
+		64C80E102A46551E00BBA4B5 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E0A2A46551E00BBA4B5 /* Classes.swift */; };
+		64C80E112A46551E00BBA4B5 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E0B2A46551E00BBA4B5 /* Edge.swift */; };
 		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 		64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */; };
 /* End PBXBuildFile section */
@@ -70,9 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		640F5F442A44E968007B7259 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
-		640F5F462A44EC11007B7259 /* Graph .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph .swift"; sourceTree = "<group>"; };
-		640F5F482A44EC4A007B7259 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		6413DCCF2A37927800ED84F7 /* ProfileVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVie.swift; sourceTree = "<group>"; };
 		643240412A436AFF00D8C899 /* DesempenhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoView.swift; sourceTree = "<group>"; };
 		643240432A436BAA00D8C899 /* DesempenhoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoComponent.swift; sourceTree = "<group>"; };
@@ -103,7 +99,6 @@
 		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
 		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6474F84E2A26CD5700A952BC /* Stylefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylefield.swift; sourceTree = "<group>"; };
-		648F18772A43CAC000B9EA3B /* pedro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pedro.swift; sourceTree = "<group>"; };
 		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
 		64AF80952A391B65005FBB45 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		64AF80972A391E25005FBB45 /* BarraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraView.swift; sourceTree = "<group>"; };
@@ -111,9 +106,12 @@
 		64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoAulaView.swift; sourceTree = "<group>"; };
 		64B876EA2A29538B0034E479 /* PerfilVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVie.swift; sourceTree = "<group>"; };
 		64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCurso.swift; sourceTree = "<group>"; };
-		64C80DFE2A426DA300BBA4B5 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
-		64C80E002A426E1500BBA4B5 /* grafo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grafo.json; sourceTree = "<group>"; };
-		64C80E022A426E6800BBA4B5 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		64C80E062A46551E00BBA4B5 /* grafo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = grafo.json; path = "Homero(iOS)/Preview Content/Grafo/grafo.json"; sourceTree = "<group>"; };
+		64C80E072A46551E00BBA4B5 /* Graph .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Graph .swift"; path = "Homero(iOS)/Preview Content/Grafo/Graph .swift"; sourceTree = "<group>"; };
+		64C80E082A46551E00BBA4B5 /* pedro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = pedro.swift; path = "Homero(iOS)/Preview Content/Grafo/pedro.swift"; sourceTree = "<group>"; };
+		64C80E092A46551E00BBA4B5 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = "Homero(iOS)/Preview Content/Grafo/Vertex.swift"; sourceTree = "<group>"; };
+		64C80E0A2A46551E00BBA4B5 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classes.swift; path = "Homero(iOS)/Preview Content/Grafo/Classes.swift"; sourceTree = "<group>"; };
+		64C80E0B2A46551E00BBA4B5 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = "Homero(iOS)/Preview Content/Grafo/Edge.swift"; sourceTree = "<group>"; };
 		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 		64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSecureVie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -317,6 +315,7 @@
 				6474F82C2A26A87E00A952BC /* Homero(iOS)Tests */,
 				6474F8362A26A87E00A952BC /* Homero(iOS)UITests */,
 				6474F81A2A26A87B00A952BC /* Products */,
+				64C80E052A46546C00BBA4B5 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -396,18 +395,17 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		64C80E042A426E8000BBA4B5 /* Grafo */ = {
+		64C80E052A46546C00BBA4B5 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				64C80DFE2A426DA300BBA4B5 /* Classes.swift */,
-				64C80E022A426E6800BBA4B5 /* FileManager.swift */,
-				64C80E002A426E1500BBA4B5 /* grafo.json */,
-				648F18772A43CAC000B9EA3B /* pedro.swift */,
-				640F5F442A44E968007B7259 /* Edge.swift */,
-				640F5F462A44EC11007B7259 /* Graph .swift */,
-				640F5F482A44EC4A007B7259 /* Vertex.swift */,
+				64C80E0A2A46551E00BBA4B5 /* Classes.swift */,
+				64C80E062A46551E00BBA4B5 /* grafo.json */,
+				64C80E0B2A46551E00BBA4B5 /* Edge.swift */,
+				64C80E072A46551E00BBA4B5 /* Graph .swift */,
+				64C80E082A46551E00BBA4B5 /* pedro.swift */,
+				64C80E092A46551E00BBA4B5 /* Vertex.swift */,
 			);
-			path = Grafo;
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +514,7 @@
 			files = (
 				6474F8242A26A87D00A952BC /* Preview Assets.xcassets in Resources */,
 				6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */,
+				64C80E0C2A46551E00BBA4B5 /* grafo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,9 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C80DFF2A426DA300BBA4B5 /* Classes.swift in Sources */,
 				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
-				648F18782A43CAC000B9EA3B /* pedro.swift in Sources */,
 				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
 				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
 				64AF80962A391B65005FBB45 /* ImageView.swift in Sources */,
@@ -552,7 +549,6 @@
 				6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */,
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
-				640F5F472A44EC11007B7259 /* Graph .swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
 				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
 				646849142A4274FC004D59D0 /* ComofuncionaView.swift in Sources */,
@@ -560,22 +556,25 @@
 				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
+				64C80E0F2A46551E00BBA4B5 /* Vertex.swift in Sources */,
 				64AF80982A391E25005FBB45 /* BarraView.swift in Sources */,
 				643240482A43725A00D8C899 /* Component.swift in Sources */,
 				643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */,
 				643240462A43723300D8C899 /* CapView.swift in Sources */,
+				64C80E112A46551E00BBA4B5 /* Edge.swift in Sources */,
 				643AC7132A3D101F001786A4 /* BarraViewEspecial.swift in Sources */,
 				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
 				644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */,
 				643240422A436AFF00D8C899 /* DesempenhoView.swift in Sources */,
-				640F5F492A44EC4A007B7259 /* Vertex.swift in Sources */,
+				64C80E0D2A46551E00BBA4B5 /* Graph .swift in Sources */,
 				646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */,
 				6432404C2A43C6A700D8C899 /* SwiftUIView.swift in Sources */,
 				643240442A436BAA00D8C899 /* DesempenhoComponent.swift in Sources */,
 				644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */,
+				64C80E0E2A46551E00BBA4B5 /* pedro.swift in Sources */,
 				6432404A2A4380FE00D8C899 /* InfoView.swift in Sources */,
 				646849122A426405004D59D0 /* IniciarcursoView.swift in Sources */,
-				640F5F452A44E968007B7259 /* Edge.swift in Sources */,
+				64C80E102A46551E00BBA4B5 /* Classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,21 +1,34 @@
-[
 {
-  "Objetivo_Aprendizagem": [{
-      "titulo": "Estrutura de Dados",
-      "carga_horaria_min": 10,
-      "descricao_objetivo": "Conheca as principais estruturas aplicadas no mercado de trabalho",
-      "identificador": 3,
-      "pre_requisitos": 2,
-      "completo": false
-      "OBJ": [
-          {
-              
-            },
-      "OBJ":
-          {
-              
-            }
-          ],
-  }]
-    
-}]
+    "Objetivos_Aprendizagem": [
+        {
+            "titulo": "Estrutura de Dados",
+            "carga_horaria_min": 10,
+            "descricao_objetivo": "Conheca as principais estruturas aplicadas no mercado de trabalho",
+            "identificador": 3,
+            "pre_requisitos": 2,
+            "completo": false
+            "OBJ": [2, 4, 5],
+        },
+        {
+            "titulo": "Estrutura de Dados",
+            "carga_horaria_min": 10,
+            "descricao_objetivo": "Conheca as principais estruturas aplicadas no mercado de trabalho",
+            "identificador": 3,
+            "pre_requisitos": 2,
+            "completo": false
+            "OBJ": [1, 3, 5],
+        }
+    ],
+    "objetos": [
+        {
+            "id": 1
+            "name": ""
+        },
+        {
+            "name": ""
+        },
+        {
+            "name": ""
+        }
+    ]
+}
