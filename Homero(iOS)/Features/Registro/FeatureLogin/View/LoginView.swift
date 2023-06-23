@@ -21,7 +21,7 @@ struct LoginView: View {
         NavigationView{
             VStack{
                 
-                Image("homero")
+                Image("Homero")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 220, height: 100)
@@ -39,7 +39,7 @@ struct LoginView: View {
                 Text("Esqueci minha senha")
                     .foregroundColor((Color("Bluedark")))
                 
-                NavigationLink(destination: TelaCadastro()) {
+                NavigationLink(destination: MenuViewTab()) {
                     Text("Entrar")
                     
                 }

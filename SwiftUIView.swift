@@ -19,7 +19,7 @@ struct SwiftUIView: View {
                         .frame(height: 100)
                         .border(Color.gray)
                         .padding()
-                    textf
+             
                 }
         }
     }

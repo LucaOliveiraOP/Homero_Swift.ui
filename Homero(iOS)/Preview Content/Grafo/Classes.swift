@@ -4,27 +4,31 @@
 //
 //  Created by userext on 13/06/23.
 //
+class SerraData: Codable {
+    var objetivos: [Objetivo_Aprendizagem] = []
+    var objetos: [ObjetoAprendizado] = []
+}
 
 class ObjetoAprendizado: Codable {
     var nome: String
-    var descricao_Objeto: String
+    var descricaoObjeto: String
     var horariocont: Int
     var id: Int
     var link: String
     
-    init(nome: String, descricao_Objeto: String, horariocont: Int, id: Int, link: String){
+    init(nome: String, descricaoObjeto: String, horariocont: Int, id: Int, link: String){
             self.nome = nome
-            self.descricao_Objeto = descricao_Objeto
+            self.descricaoObjeto = descricaoObjeto
             self.horariocont = horariocont
             self.id = id
             self.link = link
         }
     func funcao1(){
-          print("\(nome), \(descricao_Objeto)")
+          print("\(nome), \(descricaoObjeto)")
       }
   }
 //new
-class Objetivo_Aprendizagem {
+class Objetivo_Aprendizagem: Codable {
     var titulo: String
     var carga_horaria_min: Int
     var trilha: String
