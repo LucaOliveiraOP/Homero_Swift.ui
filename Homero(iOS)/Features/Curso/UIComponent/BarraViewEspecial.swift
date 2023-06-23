@@ -10,38 +10,43 @@ import SwiftUI
 struct BarraViewEspecial<Content: View>: View {
     var nomeimagem: String
     var text: String
-  @ViewBuilder  var dentinatario: () -> Content
+  @ViewBuilder  var destinatario: () -> Content
     var body: some View {
-        VStack{
-            HStack{
-                ZStack{
-                    Color("Bluedark")
-                        .ignoresSafeArea()
-                }.frame(maxWidth: 20,maxHeight: 70)
-                    .cornerRadius(7)
-                    .padding(.trailing)
-               Image(nomeimagem)
-                    .padding(.trailing)
-                Text(text)
-                    .padding(.trailing,100)
-                    .foregroundColor(Color("Bluedark"))
-                    .bold()
-                Spacer()
-                ZStack{
-                    Color(.white)
-                        .ignoresSafeArea()
+        NavigationStack{
+            VStack{
+                HStack{
+                    ZStack{
+                        Color("Bluedark")
+                            .ignoresSafeArea()
+                    }.frame(maxWidth: 20,maxHeight: 70)
+                        .cornerRadius(7)
+                        .padding(.trailing)
+                    Image(nomeimagem)
+                        .padding(.trailing)
+                    NavigationLink(destination: destinatario){
+                        Text(text)
+                            .padding(.trailing,100)
+                            .foregroundColor(Color("Bluedark"))
+                            .bold()
+                    }
+                    Spacer()
+                    ZStack{
+                        Color(.white)
+                            .ignoresSafeArea()
                         
-                }.frame(maxWidth: 20,maxHeight: 70)
-                    .cornerRadius(7)
-                    .padding(.leading)
-                
-            }.frame(width: .infinity)
-        }
-        .frame(maxWidth: 370,maxHeight: 70)
-        .cornerRadius(10)
-        .shadow(radius: 100)
-
+                    }.frame(maxWidth: 20,maxHeight: 70)
+                        .cornerRadius(7)
+                        .padding(.leading)
+                    
+                }.frame(width: .infinity)
+            }
+            .frame(maxWidth: 370,maxHeight: 70)
+            .cornerRadius(10)
+            .shadow(radius: 100)
+            .border(Color("Bluedark"))
             
+            
+        }
     }
 }
 
