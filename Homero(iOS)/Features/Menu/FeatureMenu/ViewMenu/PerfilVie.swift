@@ -14,14 +14,13 @@ struct PerfilVie: View {
         TabView{
             
             
-            NavigationView{
-                VStack{
-                    
-                    Image(systemName: "person.crop.circle")
-                        .resizable()
-                    
-                }
+            VStack{
+                
+                Image(systemName: "person.crop.circle")
+                    .resizable()
+                
             }
+            
             .tabItem{
                 Image(systemName: "video.circle.fill")
                 Text("Meus Cursos")
