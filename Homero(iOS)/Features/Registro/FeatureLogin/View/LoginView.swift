@@ -17,8 +17,6 @@ struct LoginView: View {
     @StateObject var loginmode = LoginViewModel()
     
     var body: some View {
-        
-        NavigationView{
             VStack{
                 
                 Image("Homero")
@@ -39,7 +37,7 @@ struct LoginView: View {
                 Text("Esqueci minha senha")
                     .foregroundColor((Color("Bluedark")))
                 
-                NavigationLink(destination: MenuViewTab()) {
+                NavigationLink(destination: MenuViewTab().navigationBarBackButtonHidden(true).navigationBarItems(leading: CustomBackButton())) {
                     Text("Entrar")
                     
                 }
@@ -48,15 +46,14 @@ struct LoginView: View {
                 .background(Color("Bluedark"))
                 .foregroundColor(.white)
                 .cornerRadius(10)
-                NavigationLink(destination: TelaCadastro()){
+                NavigationLink(destination: TelaCadastro().navigationBarBackButtonHidden(true).navigationBarItems(leading: CustomBackButton())){
                     Text("Não tem uma conta? registre-se!")
                         .padding(.top,30)
                         .foregroundColor((Color("Bluedark")))
                 }
-                
             }
         }
-    }
+    
     
     struct LoginView_Previews: PreviewProvider {
         static var previews: some View {

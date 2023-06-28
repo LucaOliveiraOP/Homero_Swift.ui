@@ -20,6 +20,7 @@ struct BarraView<Content: View>: View {
             NavigationLink(destination: destination) {
                 Image(systemName: "chevron.right")
                     .foregroundColor(Color("Bluedark"))
+                
             }
             .buttonStyle(.borderless)
         }
