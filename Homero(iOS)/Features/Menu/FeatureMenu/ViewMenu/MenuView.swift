@@ -19,18 +19,18 @@ struct MenuView: View {
                 
             }
             Divider()
-            .frame(width: 365,height:2)
-            .overlay(Color("Bluedark"))
-           
+                .frame(width: 365,height:2)
+                .overlay(Color("Bluedark"))
+            
             CursoVie(nomeimage: "Background", cursopequeno: "POO", curso: "Programação orientada a objeto")
             Spacer()
             
-                
             
             
             
             
-        
+            
+            
         }
     }
 }
@@ -38,28 +38,30 @@ struct MenuView: View {
 struct MenuViewTab: View {
     var body: some View {
         
-        NavigationStack {
-            TabView {
-                Group {
-                    MenuView()
-                        .tabItem{
-                            Label("Meus cursos",systemImage:"graduationcap.fill")
-                        }
-                    ProfileVie()
-                        .tabItem{
-                            Label("Conta",systemImage:"person.crop.circle.fill")
-                        }
-                }
-                
-                .toolbarBackground(.visible, for: .tabBar)
-                .toolbarBackground(Color("Bluedark"), for: .tabBar)
+        
+        TabView {
+            Group {
+                MenuView()
+                    .tabItem{
+                        Label("Meus cursos",systemImage:"graduationcap.fill")
+                    }
+                ProfileVie()
+                    .tabItem{
+                        Label("Conta",systemImage:"person.crop.circle.fill")
+                    }
             }
+            
+            .toolbarBackground(.visible, for: .tabBar)
+            .toolbarBackground(Color("Bluedark"), for: .tabBar)
         }
+        
     }
 }
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuViewTab()
+        NavigationStack{
+            MenuViewTab()
+        }
     }
 }
