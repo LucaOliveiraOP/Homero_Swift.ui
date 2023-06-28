@@ -21,6 +21,11 @@
 		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
 		644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */; };
+		64519FD72A4B91D900EB3C13 /* SerraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FD62A4B91D900EB3C13 /* SerraData.swift */; };
+		64519FD92A4B921700EB3C13 /* ObjetoAprendizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */; };
+		64519FDB2A4B926200EB3C13 /* ObjetivoAprendizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */; };
+		64519FDD2A4B927A00EB3C13 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FDC2A4B927A00EB3C13 /* Quiz.swift */; };
+		64519FDF2A4B929600EB3C13 /* Pergunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FDE2A4B929600EB3C13 /* Pergunta.swift */; };
 		646849122A426405004D59D0 /* IniciarcursoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646849112A426405004D59D0 /* IniciarcursoView.swift */; };
 		646849142A4274FC004D59D0 /* ComofuncionaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646849132A4274FC004D59D0 /* ComofuncionaView.swift */; };
 		646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */; };
@@ -43,9 +48,8 @@
 		64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */; };
 		64C80E0C2A46551E00BBA4B5 /* grafo.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C80E062A46551E00BBA4B5 /* grafo.json */; };
 		64C80E0D2A46551E00BBA4B5 /* Graph .swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E072A46551E00BBA4B5 /* Graph .swift */; };
-		64C80E0E2A46551E00BBA4B5 /* pedro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E082A46551E00BBA4B5 /* pedro.swift */; };
+		64C80E0E2A46551E00BBA4B5 /* GraphMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E082A46551E00BBA4B5 /* GraphMapper.swift */; };
 		64C80E0F2A46551E00BBA4B5 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E092A46551E00BBA4B5 /* Vertex.swift */; };
-		64C80E102A46551E00BBA4B5 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E0A2A46551E00BBA4B5 /* Classes.swift */; };
 		64C80E112A46551E00BBA4B5 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E0B2A46551E00BBA4B5 /* Edge.swift */; };
 		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 		64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */; };
@@ -83,6 +87,11 @@
 		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
 		644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewMode.swift; sourceTree = "<group>"; };
+		64519FD62A4B91D900EB3C13 /* SerraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerraData.swift; sourceTree = "<group>"; };
+		64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetoAprendizado.swift; sourceTree = "<group>"; };
+		64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetivoAprendizado.swift; sourceTree = "<group>"; };
+		64519FDC2A4B927A00EB3C13 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		64519FDE2A4B929600EB3C13 /* Pergunta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pergunta.swift; sourceTree = "<group>"; };
 		646849112A426405004D59D0 /* IniciarcursoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarcursoView.swift; sourceTree = "<group>"; };
 		646849132A4274FC004D59D0 /* ComofuncionaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComofuncionaView.swift; sourceTree = "<group>"; };
 		646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoPrincipalView.swift; sourceTree = "<group>"; };
@@ -108,9 +117,8 @@
 		64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCurso.swift; sourceTree = "<group>"; };
 		64C80E062A46551E00BBA4B5 /* grafo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = grafo.json; path = "Homero(iOS)/Preview Content/Grafo/grafo.json"; sourceTree = "<group>"; };
 		64C80E072A46551E00BBA4B5 /* Graph .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Graph .swift"; path = "Homero(iOS)/Preview Content/Grafo/Graph .swift"; sourceTree = "<group>"; };
-		64C80E082A46551E00BBA4B5 /* pedro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = pedro.swift; path = "Homero(iOS)/Preview Content/Grafo/pedro.swift"; sourceTree = "<group>"; };
+		64C80E082A46551E00BBA4B5 /* GraphMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphMapper.swift; path = "Homero(iOS)/Preview Content/Grafo/GraphMapper.swift"; sourceTree = "<group>"; };
 		64C80E092A46551E00BBA4B5 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = "Homero(iOS)/Preview Content/Grafo/Vertex.swift"; sourceTree = "<group>"; };
-		64C80E0A2A46551E00BBA4B5 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classes.swift; path = "Homero(iOS)/Preview Content/Grafo/Classes.swift"; sourceTree = "<group>"; };
 		64C80E0B2A46551E00BBA4B5 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = "Homero(iOS)/Preview Content/Grafo/Edge.swift"; sourceTree = "<group>"; };
 		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 		64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSecureVie.swift; sourceTree = "<group>"; };
@@ -398,12 +406,16 @@
 		64C80E052A46546C00BBA4B5 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				64C80E0A2A46551E00BBA4B5 /* Classes.swift */,
 				64C80E062A46551E00BBA4B5 /* grafo.json */,
 				64C80E0B2A46551E00BBA4B5 /* Edge.swift */,
 				64C80E072A46551E00BBA4B5 /* Graph .swift */,
-				64C80E082A46551E00BBA4B5 /* pedro.swift */,
+				64C80E082A46551E00BBA4B5 /* GraphMapper.swift */,
 				64C80E092A46551E00BBA4B5 /* Vertex.swift */,
+				64519FD62A4B91D900EB3C13 /* SerraData.swift */,
+				64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */,
+				64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */,
+				64519FDC2A4B927A00EB3C13 /* Quiz.swift */,
+				64519FDE2A4B929600EB3C13 /* Pergunta.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -542,12 +554,16 @@
 				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
 				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
 				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
+				64519FD72A4B91D900EB3C13 /* SerraData.swift in Sources */,
 				64AF80962A391B65005FBB45 /* ImageView.swift in Sources */,
 				64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */,
+				64519FDD2A4B927A00EB3C13 /* Quiz.swift in Sources */,
 				64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */,
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
 				6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */,
+				64519FDB2A4B926200EB3C13 /* ObjetivoAprendizado.swift in Sources */,
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
+				64519FD92A4B921700EB3C13 /* ObjetoAprendizado.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
 				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
@@ -557,6 +573,7 @@
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
 				64C80E0F2A46551E00BBA4B5 /* Vertex.swift in Sources */,
+				64519FDF2A4B929600EB3C13 /* Pergunta.swift in Sources */,
 				64AF80982A391E25005FBB45 /* BarraView.swift in Sources */,
 				643240482A43725A00D8C899 /* Component.swift in Sources */,
 				643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */,
@@ -571,10 +588,9 @@
 				6432404C2A43C6A700D8C899 /* SwiftUIView.swift in Sources */,
 				643240442A436BAA00D8C899 /* DesempenhoComponent.swift in Sources */,
 				644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */,
-				64C80E0E2A46551E00BBA4B5 /* pedro.swift in Sources */,
+				64C80E0E2A46551E00BBA4B5 /* GraphMapper.swift in Sources */,
 				6432404A2A4380FE00D8C899 /* InfoView.swift in Sources */,
 				646849122A426405004D59D0 /* IniciarcursoView.swift in Sources */,
-				64C80E102A46551E00BBA4B5 /* Classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
