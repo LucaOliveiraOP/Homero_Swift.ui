@@ -21,7 +21,6 @@
 		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
 		644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */; };
-		64519FD72A4B91D900EB3C13 /* SerraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FD62A4B91D900EB3C13 /* SerraData.swift */; };
 		64519FD92A4B921700EB3C13 /* ObjetoAprendizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */; };
 		64519FDB2A4B926200EB3C13 /* ObjetivoAprendizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */; };
 		64519FDD2A4B927A00EB3C13 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64519FDC2A4B927A00EB3C13 /* Quiz.swift */; };
@@ -87,7 +86,6 @@
 		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
 		644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewMode.swift; sourceTree = "<group>"; };
-		64519FD62A4B91D900EB3C13 /* SerraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerraData.swift; sourceTree = "<group>"; };
 		64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetoAprendizado.swift; sourceTree = "<group>"; };
 		64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetivoAprendizado.swift; sourceTree = "<group>"; };
 		64519FDC2A4B927A00EB3C13 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
@@ -411,7 +409,6 @@
 				64C80E072A46551E00BBA4B5 /* Graph .swift */,
 				64C80E082A46551E00BBA4B5 /* GraphMapper.swift */,
 				64C80E092A46551E00BBA4B5 /* Vertex.swift */,
-				64519FD62A4B91D900EB3C13 /* SerraData.swift */,
 				64519FD82A4B921700EB3C13 /* ObjetoAprendizado.swift */,
 				64519FDA2A4B926200EB3C13 /* ObjetivoAprendizado.swift */,
 				64519FDC2A4B927A00EB3C13 /* Quiz.swift */,
@@ -554,7 +551,6 @@
 				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
 				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
 				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
-				64519FD72A4B91D900EB3C13 /* SerraData.swift in Sources */,
 				64AF80962A391B65005FBB45 /* ImageView.swift in Sources */,
 				64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */,
 				64519FDD2A4B927A00EB3C13 /* Quiz.swift in Sources */,

@@ -10,7 +10,7 @@ import SwiftUI
 struct CursoPrincipalView: View {
     var body: some View {
         NavigationStack{
-            VStack(spacing: 20){
+            VStack(spacing: 40){
                 Text("Todos os cursos")
                     .padding(.trailing,137)
                     .foregroundColor(Color("Bluedark"))

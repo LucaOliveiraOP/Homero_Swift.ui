@@ -55,24 +55,27 @@ struct TelaCadastro: View {
                         .stroke(Color("Bluedark"),lineWidth: 2)
                  )
                 .padding(.horizontal, 50)
-                .padding(.bottom)
+                .padding(.top, -20)
             
-            Button(action: {
-                if Securefield != Securefield2 {
-                    showAlert = true
-                } else{
-                    
-                    
-                }
-                
-            }) {
-                Text("Cadastrar")
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 275, height: 50)
-                    .background(Color("Bluedark"))
-                    .cornerRadius(10)
-            }
+//            Button(action: {
+//                if Securefield != Securefield2 {
+//                    showAlert = true
+//                } else{
+//
+//
+//                }
+//
+//            }) {
+//                Text("Cadastrar")
+//                    .foregroundColor(.white)
+//                    .padding()
+//                    .frame(width: 275, height: 50)
+//                    .background(Color("Bluedark"))
+//                    .cornerRadius(10)
+//            }
+                .navigationLinkHomero(text: "continuar cadastro", destination: {
+                    MenuViewTab()
+                })
             .padding(.top, 20)
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("⚠️ Erro!"),
