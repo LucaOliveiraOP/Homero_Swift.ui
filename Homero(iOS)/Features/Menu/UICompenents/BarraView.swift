@@ -17,12 +17,12 @@ struct BarraView<Content: View>: View {
                 .frame(width: .infinity)
                 .font(.system(size: 14))
             Spacer()
-            NavigationLink(destination: destination) {
+            NavigationLink(destination: destination().navigationBarBackButtonHidden(true)
+                .navigationBarItems(leading: CustomBackButton())) {
                 Image(systemName: "chevron.right")
                     .foregroundColor(Color("Bluedark"))
-                
             }
-            .buttonStyle(.borderless)
+                .buttonStyle(.borderless)
         }
         .padding()
         .frame(maxWidth: .infinity)

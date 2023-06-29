@@ -24,9 +24,9 @@ struct PerguntasFrequentes: View {
             .foregroundColor(Color("Bluedark"))
             
             VStack(spacing: 1){
-                BarraView(texto: "Como recebo o meu certificado de conclusão de curso?") {InformacoesView()}
-                BarraView(texto: "Como posso acessar o fórum?"){ForgotPasswordVie()}
-                BarraView(texto: "como denunciar um tópico?") {HistoricoAulaView()}
+                BarraView(texto: "Como recebo o meu certificado de conclusão de curso?") {}
+                BarraView(texto: "Como posso acessar o fórum?"){}
+                BarraView(texto: "como denunciar um tópico?") {}
                 BarraView(texto: "Desejo excluir a minha, como faço?") {}
                 BarraView(texto: "Possuo outra dúvida, como posso entrar em contato?") {}
             }

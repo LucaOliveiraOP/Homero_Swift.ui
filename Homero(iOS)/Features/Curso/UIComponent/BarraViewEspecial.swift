@@ -23,7 +23,8 @@ struct BarraViewEspecial<Content: View>: View {
                         .padding(.trailing)
                     Image(nomeimagem)
                         .padding(.trailing)
-                    NavigationLink(destination: destinatario){
+                    NavigationLink(destination: destinatario().navigationBarBackButtonHidden(true)
+                        .navigationBarItems(leading: CustomBackButton())){
                         Text(text)
                             .padding(.trailing,100)
                             .foregroundColor(Color("Bluedark"))
